@@ -63,7 +63,7 @@ def LoginPage():
     if content[:3]==codecs.BOM_UTF8:
         content = content[3:]    
     #print content
-    #if content contains info "179095423", it's successful.
+    #if content contains info "qq number", it's successful.
     #you are now logged in and can access "members only" content.
     #when your all done be sure to close it
     opener.close()
